@@ -1,8 +1,15 @@
 from setuptools import setup,find_packages
+import codecs
+import u2py
+def long_description():
+    with codecs.open('README.rst', encoding='utf8') as f:
+        return f.read()
+
 setup(
     name='u2py',
-    version='0.1a5',
+    version=u2py.__version__,
     description='A utility to convert ui files to python files',
+    long_description=long_description(),
     url='https://github.com/dragneelfps/project-u2py',
     author='Sourabh S. Rawat',
     author_email='dragneelfps@gmail.com',
