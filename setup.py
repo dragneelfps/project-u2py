@@ -1,7 +1,7 @@
 from setuptools import setup,find_packages
 setup(
     name='u2py',
-    version='0.1a3',
+    version='0.1a4',
     description='A utility to convert ui files to python files',
     url='https://github.com/dragneelfps/u2py',
     author='Sourabh S. Rawat',
