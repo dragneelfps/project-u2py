@@ -19,7 +19,7 @@ setup(
         #   3 - Alpha
         #   4 - Beta
         #   5 - Production/Stable
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 4 - Beta',
 
         # Indicate who your project is intended for
         'Intended Audience :: Developers',
@@ -36,8 +36,8 @@ setup(
         'Operating System :: Microsoft :: Windows :: Windows 10'
     ],
     #keyword='ui-files  development',
-    packages=find_packages(),
-    install_requires=['PyQt5'],
+    packages=['u2py','u2py.converters'],
+    install_requires=[],
     python_requires='>=3',
     entry_points={
         'console_scripts':[
